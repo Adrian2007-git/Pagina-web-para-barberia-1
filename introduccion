@@ -249,6 +249,21 @@ footer{
 
 </select>
 
+<h3>Método de Pago</h3>
+
+<label for="pago">Seleccione un método de pago:</label>
+
+<select id="pago" required>
+    <option value="">Seleccione una opción</option>
+    <option value="efectivo">💵 Efectivo</option>
+    <option value="transferencia">🏦 Transferencia Bancaria</option>
+    <option value="tarjeta">💳 Tarjeta de Crédito o Débito</option>
+</select>
+
+<div id="mensajePago" style="margin:15px 0; padding:15px; background:#f2f2f2; border-radius:8px;">
+    Seleccione un método de pago para ver las instrucciones.
+</div>
+
 <button type="submit">Reservar</button>
 
 </form>
